@@ -75,7 +75,7 @@ st.markdown('<h1 style="text-align: center; font: bold; color:#41ccb3;">Weather 
 
 st.image("weather-icon-sun-and-cloud-icon-png.webp", caption="", use_column_width=True)
 
-col_left, col_middle, col_right, col_extra = st.columns(4)
+col_left, col_middle, col_right = st.columns(3)
 
 location = st.text_input("Enter a location", key="location")
 
